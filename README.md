@@ -3,18 +3,18 @@ Description: This program plays BattelShip game. Each of user and computer has f
 
 
 main.cpp <br />
-	// 'srand(time(0))' initialized a random number generator. <br />
+	// 'srand(time(0))' initialized a random number generator.
 	It will ask user whether to start the game or exit the game with explanation of the game.
 	If user wants to start the game, it will start game with 'PlayGame()' function of Game class object.
 
-Ship.h
+Ship.h <br />
 	It contains the defition for the class Ship.
 
-Ship.cpp
+Ship.cpp <br />
 	'setEndPts' function will set starting location and end location of each ship.
 	Those locations will be used when user or computer attack opponent's grid.
 
-Grid.h
+Grid.h <br />
 	Contains the definition for the class Grid.
 
 Grid.cpp
