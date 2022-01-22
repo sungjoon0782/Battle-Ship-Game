@@ -17,29 +17,29 @@ Ship.cpp <br />
 Grid.h <br />
 	Contains the definition for the class Grid.
 
-Grid.cpp
+Grid.cpp <br />
 	A constructor with a parameter will need a vector with Ship claa objects.
 	It will place the ships on the board according to the direction and the starting location of each ship.
 	'attackBoard' function will be used when each player attack opponent.
 	It will mark the attacked location as 'X'.
 
-ComputerGrid.h
+ComputerGrid.h <br /> 
 	Contains the definition for the class ComputerGrid.
 	It inherits 'Grid' class.
 
-ComputerGrid.cpp
+ComputerGrid.cpp <br />
 	'setRandomShips' function will place five ships on the conputer's grid without overlapping.
 
-Player.h
+Player.h <br />
 	It contains the definition for the class Player.
 
-Player.cpp
+Player.cpp <br />
 
-Game.h
+Game.h <br />
 	Contains the definition for the class Game.
 	It has two players in it: user and computer.
 
-Game.cpp
+Game.cpp <br />
 	'PlayGame' function will start a new game.
 	It will ask user to attack a location of computer's grid, and computer will attack a random location of user's grid.
 	If one of players succeed to attack 5 ships, then the game will ask user whether to play again or exit the game.
@@ -48,11 +48,11 @@ Game.cpp
 	If any ship gets attacked, the board will mark 'X's on that ship's locations.
 	'CattackP' function is user when computer attacks player. It works the same way as 'PattackC' function, but it will randomly attack a location.
 	
-Exception.h
+Exception.h <br />
 	Contains the definition for the class Exception.
 	It has three different exceptions.
 	1. When the reading file has any overlapped ships, the program will terminate with 'OverLap' exception.
 	2. When the reading file has any ships that are out of board, the program will terminate with 'OutofGrid' exception.
 	3. When the reading file has any ships that do not match any type of ship, the program will terminate with 'WrongName' exception.
 
-Exception.cpp
+Exception.cpp <br />
