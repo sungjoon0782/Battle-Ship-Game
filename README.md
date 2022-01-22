@@ -2,8 +2,8 @@
 Description: This program plays BattelShip game. Each of user and computer has five ships and has to attack opponent's ships.
 
 
-main.cpp
-	// 'srand(time(0))' initialized a random number generator.
+main.cpp <br />
+	// 'srand(time(0))' initialized a random number generator. <br />
 	It will ask user whether to start the game or exit the game with explanation of the game.
 	If user wants to start the game, it will start game with 'PlayGame()' function of Game class object.
 
