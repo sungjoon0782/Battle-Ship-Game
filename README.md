@@ -1,5 +1,7 @@
 # Battle-Ship-Game
-Description: This program plays BattelShip game. Each of user and computer has five ships and has to attack opponent's ships.
+
+## Description: 
+	This program plays BattelShip game. Each of user and computer has five ships and has to attack opponent's ships.
 
 
 ## main.cpp <br />
